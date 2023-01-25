@@ -1,5 +1,9 @@
 // Given an integer array and another integer element. The task is to find if the given element is present in array or not.
 
+#include <iostream>
+using namespace std;
+
+// Solution 
 class Solution{
     public:
     // Function to search x in arr
