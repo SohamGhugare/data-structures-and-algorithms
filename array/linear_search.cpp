@@ -1,5 +1,11 @@
 // Given an integer array and another integer element. The task is to find if the given element is present in array or not.
 
+// Input format
+// Line 1: number of test cases
+// Line 2: Array length N
+// Line 3: N space separated integers
+// Line 4: Target
+
 #include <iostream>
 using namespace std;
 
