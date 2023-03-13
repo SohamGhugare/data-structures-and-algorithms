@@ -8,7 +8,6 @@ The approach here is to place the smallest element to the start of the array and
 Time Complexity:
     Best Case: O(n^2)
     Worst Case: O(n^2)
-    
 
 Space Complexity: O(1)
 */
@@ -26,7 +25,7 @@ void selectionSort(int arr[], int n){
         int minIndex=i;
 
         /*
-        The inner loop will be executed on the array from the element next to the selected element till the last element.
+        The inner loop will be executed on the array from the element next to the assigned element till the last element.
         We will find the smallest number in this array and assign it to minIndex.
         */
         for(int j=i+1; j<n; j++){
