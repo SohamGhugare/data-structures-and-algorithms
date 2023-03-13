@@ -14,6 +14,8 @@ using namespace std;
 
 // Bubble Sort Code
 void bubbleSort(int arr[], int n){
+    // Adding a flag that will be switched every time we encounter a swap.
+    bool swapped = false;
 
     /*
     Outer loop for going thru n-1 iterations. We are comparing & swapping two elements at a time so we can skip one iteration.
@@ -30,8 +32,16 @@ void bubbleSort(int arr[], int n){
             // Compare the jth and its adjacent element and swap them if needed.
             if(arr[j]>arr[j+1]){
                 swap(arr[j], arr[j+1]);
+                swapped = true;
             }
         }
+
+        /*
+        If there's no swap occuring in the array, we will break out of the loop since the array is already sorted at this point.
+        (Optimization)
+        */
+       if(swapped==false)
+        break;
     }
 }
 
