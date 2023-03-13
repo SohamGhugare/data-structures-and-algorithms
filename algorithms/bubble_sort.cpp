@@ -1,6 +1,8 @@
 /*
 <<------ BUBBLE SORT ------>>
 Bubble sort basically just sorts the array by swapping two adjacent elements. 
+
+Approach: 
 The main approach here is to send the nth largest element in the array to the end of the array in the nth iteration till the whole array is sorted. 
 
 Time Complexity:
