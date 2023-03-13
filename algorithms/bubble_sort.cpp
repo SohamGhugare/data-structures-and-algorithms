@@ -3,8 +3,10 @@
 Bubble sort basically just sorts the array by swapping two adjacent elements. 
 The main approach here is to send the nth largest element in the array to the end of the array in the nth iteration till the whole array is sorted. 
 
-Time Complexity: O(n^2) 
-(since we are running two `for` loops and comparing all n elements)
+Time Complexity:
+    Best Case: O(n) (Array is already sorted)
+    Worst Case: O(n^2)
+    (since we are running two `for` loops and comparing all n elements)
 
 Space Complexity: O(1)
 */
